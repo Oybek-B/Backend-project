@@ -1,0 +1,110 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Главная страница</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="{% static '/store/css/store.css' %}">
+  
+    <style>a {text-decoration: none;}</style>
+</head>
+
+<body>
+    <aside>
+      <img src="{% static 'store/img/logo2.png' %}">
+      <div class="aside-text">
+        <ul>
+          <a href="#"><li></i> Категории </li></a>
+          <a href="#"><li></i> Демисезонная </li></a>
+          <a href="#"><li></i> Мужское </li></a>
+          <a href="#"><li></i> Женское </li></a>
+          <a href="#"><li></i> Детям </li></a>
+        </ul>
+      </div>
+      <div class="promo">
+        <img src="{% static 'store/img/promo-logo.png' %}">
+        <h4>Промокод</h4>
+        <input class="promo-text" type="text" placeholder="DEVTRUE"><span class="around-badge"><button><i class="fa-regular fa-copy"></i></button></span>
+        <div class="badge"></div>
+      </div>
+      
+      <div class="addres">
+        <h6>Просим заметиль что мы работаем по
+          г.Москва, адрес офиса улица Варварка, 3
+          55.752972, 37.628271</h6>
+      </div>
+    </aside>
+    <div class="hedr"><img id="logo" src="{% static 'store/img/head-logo1.png' %}">
+      <div class="hedrtext">
+        <h1>Вперед, к победам!</h1>
+        <h5>Покори улицы с непревзойденным</h5>
+        <h5>комфортом и стилем!</h5>
+        <a class="btn" href="#"><i class="ion-ios-arrow-down"></i><h4>Перейти к заказу</h4></a>
+      </div>
+    </div>
+  <div class="nav-conteiner">
+    <nav>
+      <ul>
+        <li><a href="#">Nike</a></li>
+        <li><a href="#">Adidas</a></li>
+        <li><a href="#">Reebok</a></li>
+        <li><a href="#">Puma</a></li>
+        <div class="search-icon"><input class="search" type="text"  placeholder="Поиск">
+          <div class="ser-icon"><i class="fa-solid fa-magnifying-glass fa-xl"></i></div>
+          <div class="s-icon">
+            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+          </div>
+          <div class="s1-icon">
+            <a href="profile.html" class="a-icon"><i class="fa-solid fa-user"></i></a>
+          </div>
+        </div>
+        
+      </ul>
+    </nav>
+  </div>
+  <div class="container">
+    <div class="cont">
+    <div class="card">
+      <img src="{% static 'store/img/boots2.png' %}">
+      <h5>STREAT</h5>
+      <h6>NEW</h6>
+      <h4>Nike Air Max Shoe Red</h4>
+      <h3>Цена: 5499</h3>
+    </div>
+    <div class="card">
+      <a href=""></a><img src="{% static 'store/img/boots.png' %}">
+      <h5>STREAT</h5>
+      <h6>NEW</h6>
+      <h4>Nike Air Max Shoe Red</h4>
+      <h3>Цена: 5499</h3>
+    </div>
+    <div class="card">
+      <img src="{% static 'store/img/boots2.png' %}">
+      <h5>STREAT</h5>
+      <h6>NEW</h6>
+      <h4>Nike Air Max Shoe Red</h4>
+      <h3>Цена: 5499</h3>
+    </div>
+    <div class="card">
+      <img src="{% static 'store/img/boots.png' %}">
+      <h5>STREAT</h5>
+      <h6>NEW</h6>
+      <h4>Nike Air Max Shoe Red</h4>
+      <h3>Цена: 5499</h3>
+    </div>
+  </div>
+  </div>
+  <div class="empty"><br><br><br><br><br><br><br><br><br><br></div>
+  <div class="bottom-line">
+    <img src="{% static 'store/img/logo2.png' %}">
+    <h5>2023</h5>
+    
+  </div>
+  
+ 
+</body>
+</html>
